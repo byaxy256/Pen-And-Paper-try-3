@@ -1,0 +1,20 @@
+{
+    "users": [
+      {
+        "username": "moses",
+        "password": "admin",
+        "role": "1"
+      },
+      {
+        "username": "client",
+        "password": "client",
+        "role": "2"
+      },
+      {
+        "username": "<dynamic-username>",
+        "password": "<dynamic-password>",
+        "role": "<dynamic-role>"
+      }
+    ]
+  }
+  

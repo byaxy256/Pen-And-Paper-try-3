@@ -1,0 +1,109 @@
+.sign {
+  display: block;
+}
+
+.closed {
+  display: none;
+}
+
+
+.signIn {
+  display: block;
+  max-width: 1000px;
+  max-height: 600px;
+  border-radius: 10px;
+  border-width: 3px;
+  margin: 80px auto;
+  z-index: 1;
+  padding: 10px;
+  background-color: black;
+  box-shadow: 5px 5px 15px -7px rgba(0, 0, 0, 0.42);
+}
+.sign-box {
+  max-width: 100%;
+  height: auto;
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.side-form {
+  width: 40%;
+  background-image: url(../../images/img1.jpg);
+  
+}
+
+.myform {
+  border-radius: 2px;
+  background: whitesmoke;
+  padding: 40px;
+  width: 60%;
+}
+
+.sign-form {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 10px auto;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.myform input {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #090808;
+  display: block;
+  max-width: 300px;
+  background: #e6e6e6;
+  height: 50px;
+  padding: 20px;
+  border-radius: 25px;
+}
+.myform .btn {
+  margin: auto;
+  height: 45px;
+  width: 60px;
+  transition: 0.5s color ease-in-out;
+  color: black;
+}
+.myform .signIn{
+  color: black;
+}
+.myform .btn:hover {
+  background-color: rgb(244, 237, 237);
+  color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .signIn {
+    width: 90%;
+  }
+
+  .close-Btn {
+    right: 5px;
+  }
+  .myform {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 705px) and (max-width: 1000px) {
+  .signIn {
+    width: 80%;
+    height: auto;
+  }
+  .close-Btn {
+    right: 20px;
+  }
+}
+
+@media (min-width: 1002px) and (max-width: 1200px) {
+  .signIn {
+    width: 80%;
+    height: auto;
+  }
+  .close-Btn {
+    right: 40px;
+  }
+}
